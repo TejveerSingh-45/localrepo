@@ -1,0 +1,5 @@
+n=int(input())
+sale=list(map(int,input().split()))
+max_sale=max(sale)
+min_sale=min(sale)
+print(max_sale,min_sale)
